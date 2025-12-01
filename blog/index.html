@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Vehicle Storage Guides | Oxford RV Storage Blog</title>
+  <meta name="description" content="100 guides on vehicle storage for Atlanta Metro drivers. RVs, boats, cars, trailers, and more. Practical advice from Oxford RV Storage." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://www.oxfordrvstorage.com/blog/" />
+  <link rel="alternate" type="application/rss+xml" title="Oxford RV Storage Blog" href="/feed.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-cream: #F7F5F0;
+      --color-forest: #1B3D2F;
+      --color-forest-light: #2D5A47;
+      --color-rust: #C45D3A;
+      --color-rust-light: #E07B5A;
+      --color-sand: #D4C9B8;
+      --color-charcoal: #2C2C2C;
+      --font-display: 'Fraunces', Georgia, serif;
+      --font-body: 'DM Sans', system-ui, sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--color-cream);
+      color: var(--color-charcoal);
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: var(--color-forest);
+      padding: 1.5rem 2rem;
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-cream);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .nav-links a {
+      color: var(--color-sand);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--color-cream);
+    }
+
+    /* Hero */
+    .page-hero {
+      background: linear-gradient(165deg, var(--color-forest) 0%, var(--color-forest-light) 100%);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      color: var(--color-cream);
+      margin-bottom: 1rem;
+    }
+
+    .page-hero p {
+      color: var(--color-sand);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Main Content */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    /* Category Sections */
+    .category {
+      margin-bottom: 3rem;
+    }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--color-sand);
+    }
+
+    .category-icon {
+      font-size: 1.5rem;
+    }
+
+    .category-title {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--color-forest);
+    }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 1rem;
+    }
+
+    .article-link {
+      display: block;
+      padding: 1rem 1.25rem;
+      background: white;
+      border-radius: 6px;
+      text-decoration: none;
+      color: var(--color-charcoal);
+      transition: all 0.2s ease;
+      border: 1px solid transparent;
+    }
+
+    .article-link:hover {
+      border-color: var(--color-forest);
+      transform: translateX(4px);
+    }
+
+    .article-link h3 {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--color-charcoal);
+      color: var(--color-sand);
+      padding: 2rem;
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+    footer a {
+      color: var(--color-cream);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        gap: 1rem;
+      }
+
+      .articles-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="logo">Oxford RV Storage</a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+        <a href="/feed.xml">RSS</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="page-hero">
+    <h1>Vehicle Storage Guides</h1>
+    <p>100 practical guides for Atlanta Metro drivers. Everything you need to know about storing RVs, boats, cars, trailers, and more.</p>
+  </div>
+
+  <main>
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">🚐</span>
+        <h2 class="category-title">RV Storage</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/best-rv-storage-facilities-in-the-atlanta-metro.html" class="article-link"><h3>Best RV Storage Facilities in the Atlanta Metro</h3></a>
+        <a href="/blog/covered-rv-storage-vs-open-rv-storage-in-atlanta.html" class="article-link"><h3>Covered RV Storage vs Open RV Storage in Atlanta</h3></a>
+        <a href="/blog/rv-storage-near-oxford-georgia-what-you-should-expect.html" class="article-link"><h3>RV Storage Near Oxford, Georgia: What You Should Expect</h3></a>
+        <a href="/blog/rv-storage-security-features-you-should-demand-in-atlanta.html" class="article-link"><h3>RV Storage Security Features You Should Demand in Atlanta</h3></a>
+        <a href="/blog/why-atlanta-rv-owners-are-moving-storage-to-oxford.html" class="article-link"><h3>Why Atlanta RV Owners Are Moving Storage to Oxford</h3></a>
+        <a href="/blog/oversized-rv-parking-in-atlanta-metro-where-to-find-it.html" class="article-link"><h3>Oversized RV Parking in Atlanta Metro: Where to Find It</h3></a>
+        <a href="/blog/top-rv-storage-mistakes-to-avoid-in-georgia.html" class="article-link"><h3>Top RV Storage Mistakes to Avoid in Georgia</h3></a>
+        <a href="/blog/rv-storage-tips-for-georgia-summers-and-winters.html" class="article-link"><h3>RV Storage Tips for Georgia Summers and Winters</h3></a>
+        <a href="/blog/most-reliable-rv-storage-lots-in-atlanta.html" class="article-link"><h3>Most Reliable RV Storage Lots in Atlanta</h3></a>
+        <a href="/blog/winterizing-your-rv-or-boat-in-georgia.html" class="article-link"><h3>Winterizing Your RV or Boat in Georgia</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">🚤</span>
+        <h2 class="category-title">Boat Storage</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/best-boat-storage-options-near-atlanta-metro-lakes.html" class="article-link"><h3>Best Boat Storage Options Near Atlanta Metro Lakes</h3></a>
+        <a href="/blog/trailered-boat-storage-near-oxford-and-lake-oconee.html" class="article-link"><h3>Trailered Boat Storage Near Oxford and Lake Oconee</h3></a>
+        <a href="/blog/affordable-boat-storage-near-atlanta-marinas.html" class="article-link"><h3>Affordable Boat Storage Near Atlanta Marinas</h3></a>
+        <a href="/blog/covered-vs-uncovered-boat-storage-in-atlanta.html" class="article-link"><h3>Covered vs Uncovered Boat Storage in Atlanta</h3></a>
+        <a href="/blog/winter-boat-storage-guide-for-atlanta-residents.html" class="article-link"><h3>Winter Boat Storage Guide for Atlanta Residents</h3></a>
+        <a href="/blog/why-boat-owners-prefer-oxford-for-storage.html" class="article-link"><h3>Why Boat Owners Prefer Oxford for Storage</h3></a>
+        <a href="/blog/summer-boat-storage-tips-for-georgia-boat-owners.html" class="article-link"><h3>Summer Boat Storage Tips for Georgia Boat Owners</h3></a>
+        <a href="/blog/places-to-store-your-jet-ski-or-small-boat-near-atlanta.html" class="article-link"><h3>Places to Store Your Jet Ski or Small Boat Near Atlanta</h3></a>
+        <a href="/blog/how-to-choose-a-reliable-boat-storage-facility-in-atlanta.html" class="article-link"><h3>How to Choose a Reliable Boat Storage Facility in Atlanta</h3></a>
+        <a href="/blog/the-best-boat-storage-reviews-for-atlanta-metro.html" class="article-link"><h3>The Best Boat Storage Reviews for Atlanta Metro</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">🚗</span>
+        <h2 class="category-title">Car Storage</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/best-car-storage-options-in-atlanta-metro-for-long-term-parking.html" class="article-link"><h3>Best Car Storage Options in Atlanta Metro for Long-Term Parking</h3></a>
+        <a href="/blog/affordable-car-storage-in-atlanta-metro-complete-guide.html" class="article-link"><h3>Affordable Car Storage in Atlanta Metro: Complete Guide</h3></a>
+        <a href="/blog/how-to-choose-the-best-car-storage-lot-in-atlanta.html" class="article-link"><h3>How to Choose the Best Car Storage Lot in Atlanta</h3></a>
+        <a href="/blog/safe-car-storage-facilities-near-oxford-and-the-atlanta-metro.html" class="article-link"><h3>Safe Car Storage Facilities Near Oxford and the Atlanta Metro</h3></a>
+        <a href="/blog/24-hour-access-car-storage-near-atlanta-and-oxford.html" class="article-link"><h3>24-Hour Access Car Storage Near Atlanta and Oxford</h3></a>
+        <a href="/blog/short-term-car-storage-options-in-atlanta-metro.html" class="article-link"><h3>Short-Term Car Storage Options in Atlanta Metro</h3></a>
+        <a href="/blog/long-term-vehicle-storage-in-atlanta-what-it-really-costs.html" class="article-link"><h3>Long-Term Vehicle Storage in Atlanta: What It Really Costs</h3></a>
+        <a href="/blog/car-storage-close-to-hartsfield-jackson-airport.html" class="article-link"><h3>Car Storage Close to Hartsfield-Jackson Airport</h3></a>
+        <a href="/blog/best-car-storage-near-covington-conyers-and-oxford.html" class="article-link"><h3>Best Car Storage Near Covington, Conyers, and Oxford</h3></a>
+        <a href="/blog/car-and-rv-storage-near-stonecrest-and-lithonia.html" class="article-link"><h3>Car and RV Storage Near Stonecrest and Lithonia</h3></a>
+        <a href="/blog/where-atlanta-residents-store-cars-when-traveling-abroad.html" class="article-link"><h3>Where Atlanta Residents Store Cars When Traveling Abroad</h3></a>
+        <a href="/blog/best-vehicle-storage-for-atlanta-students-and-travelers.html" class="article-link"><h3>Best Vehicle Storage for Atlanta Students and Travelers</h3></a>
+        <a href="/blog/storing-vehicles-in-atlanta-during-long-road-trips.html" class="article-link"><h3>Storing Vehicles in Atlanta During Long Road Trips</h3></a>
+        <a href="/blog/top-rated-car-storage-facilities-in-atlanta-metro.html" class="article-link"><h3>Top Rated Car Storage Facilities in Atlanta Metro</h3></a>
+        <a href="/blog/car-storage-solutions-for-people-moving-to-atlanta.html" class="article-link"><h3>Car Storage Solutions for People Moving to Atlanta</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">🏎️</span>
+        <h2 class="category-title">Classic & Luxury Car Storage</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/best-secure-car-storage-for-classic-cars-in-atlanta.html" class="article-link"><h3>Best Secure Car Storage for Classic Cars in Atlanta</h3></a>
+        <a href="/blog/premium-car-storage-solutions-for-classic-cars-in-atlanta.html" class="article-link"><h3>Premium Car Storage Solutions for Classic Cars in Atlanta</h3></a>
+        <a href="/blog/indoor-luxury-car-storage-what-atlanta-drivers-prefer.html" class="article-link"><h3>Indoor Luxury Car Storage: What Atlanta Drivers Prefer</h3></a>
+        <a href="/blog/where-to-store-exotic-cars-safely-in-the-atlanta-metro.html" class="article-link"><h3>Where to Store Exotic Cars Safely in the Atlanta Metro</h3></a>
+        <a href="/blog/secure-battery-maintained-storage-for-luxury-cars-in-atlanta.html" class="article-link"><h3>Secure, Battery-Maintained Storage for Luxury Cars in Atlanta</h3></a>
+        <a href="/blog/how-to-store-your-high-value-vehicle-safely-in-georgia.html" class="article-link"><h3>How to Store Your High-Value Vehicle Safely in Georgia</h3></a>
+        <a href="/blog/top-safety-tips-for-storing-luxury-cars-in-georgia.html" class="article-link"><h3>Top Safety Tips for Storing Luxury Cars in Georgia</h3></a>
+        <a href="/blog/best-car-storage-for-ferrari-porsche-lamborghini-owners-in-atlanta.html" class="article-link"><h3>Best Car Storage for Ferrari, Porsche, Lamborghini Owners in Atlanta</h3></a>
+        <a href="/blog/long-term-exotic-car-storage-tips-for-atlanta-owners.html" class="article-link"><h3>Long-Term Exotic Car Storage Tips for Atlanta Owners</h3></a>
+        <a href="/blog/best-luxury-car-storage-near-atlanta-airbnbs-and-airports.html" class="article-link"><h3>Best Luxury Car Storage Near Atlanta Airbnbs and Airports</h3></a>
+        <a href="/blog/why-oxford-is-becoming-a-popular-luxury-car-storage-hub.html" class="article-link"><h3>Why Oxford Is Becoming a Popular Luxury Car Storage Hub</h3></a>
+        <a href="/blog/checklist-before-storing-your-classic-car-in-atlanta.html" class="article-link"><h3>Checklist Before Storing Your Classic Car in Atlanta</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">🏕️</span>
+        <h2 class="category-title">Camper & Trailer Storage</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/best-camper-storage-lots-near-atlanta.html" class="article-link"><h3>Best Camper Storage Lots Near Atlanta</h3></a>
+        <a href="/blog/best-places-for-camper-and-motorhome-storage-in-atlanta.html" class="article-link"><h3>Best Places for Camper and Motorhome Storage in Atlanta</h3></a>
+        <a href="/blog/secure-camper-storage-near-oxford-georgia.html" class="article-link"><h3>Secure Camper Storage Near Oxford, Georgia</h3></a>
+        <a href="/blog/how-to-prep-your-camper-for-long-term-storage-in-atlanta.html" class="article-link"><h3>How to Prep Your Camper for Long-Term Storage in Atlanta</h3></a>
+        <a href="/blog/covered-camper-storage-vs-open-storage-in-atlanta.html" class="article-link"><h3>Covered Camper Storage vs Open Storage in Atlanta</h3></a>
+        <a href="/blog/camper-storage-prices-in-the-atlanta-metro.html" class="article-link"><h3>Camper Storage Prices in the Atlanta Metro</h3></a>
+        <a href="/blog/camper-storage-mistakes-to-avoid.html" class="article-link"><h3>Camper Storage Mistakes to Avoid</h3></a>
+        <a href="/blog/where-to-store-your-travel-trailer-safely-in-georgia.html" class="article-link"><h3>Where to Store Your Travel Trailer Safely in Georgia</h3></a>
+        <a href="/blog/top-features-to-look-for-in-an-atlanta-camper-storage-facility.html" class="article-link"><h3>Top Features to Look for in an Atlanta Camper Storage Facility</h3></a>
+        <a href="/blog/why-atlanta-camper-owners-are-looking-east-to-oxford.html" class="article-link"><h3>Why Atlanta Camper Owners Are Looking East to Oxford</h3></a>
+        <a href="/blog/secure-storage-for-trailers-and-flatbeds-near-atlanta.html" class="article-link"><h3>Secure Storage for Trailers and Flatbeds Near Atlanta</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">🚚</span>
+        <h2 class="category-title">Work & Commercial Vehicles</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/a-complete-guide-to-storing-work-trucks-in-atlanta.html" class="article-link"><h3>A Complete Guide to Storing Work Trucks in Atlanta</h3></a>
+        <a href="/blog/best-places-to-store-delivery-vans-and-fleet-vehicles-in-atlanta.html" class="article-link"><h3>Best Places to Store Delivery Vans and Fleet Vehicles in Atlanta</h3></a>
+        <a href="/blog/outdoor-storage-yards-in-atlanta-for-work-vehicles.html" class="article-link"><h3>Outdoor Storage Yards in Atlanta for Work Vehicles</h3></a>
+        <a href="/blog/contractor-equipment-storage-near-atlanta-and-oxford.html" class="article-link"><h3>Contractor Equipment Storage Near Atlanta and Oxford</h3></a>
+        <a href="/blog/heavy-equipment-storage-near-atlanta-metro.html" class="article-link"><h3>Heavy Equipment Storage Near Atlanta Metro</h3></a>
+        <a href="/blog/affordable-industrial-storage-units-near-atlanta.html" class="article-link"><h3>Affordable Industrial Storage Units Near Atlanta</h3></a>
+        <a href="/blog/how-industrial-storage-works-for-small-businesses-in-georgia.html" class="article-link"><h3>How Industrial Storage Works for Small Businesses in Georgia</h3></a>
+        <a href="/blog/top-industrial-storage-trends-in-georgia.html" class="article-link"><h3>Top Industrial Storage Trends in Georgia</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">🔐</span>
+        <h2 class="category-title">Security & Safety</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/must-have-security-features-in-an-atlanta-storage-facility.html" class="article-link"><h3>Must-Have Security Features in an Atlanta Storage Facility</h3></a>
+        <a href="/blog/which-atlanta-storage-facilities-offer-the-best-security.html" class="article-link"><h3>Which Atlanta Storage Facilities Offer the Best Security</h3></a>
+        <a href="/blog/best-anti-theft-measures-for-stored-vehicles.html" class="article-link"><h3>Best Anti-Theft Measures for Stored Vehicles</h3></a>
+        <a href="/blog/what-24-hour-surveillance-means-for-your-car-storage.html" class="article-link"><h3>What 24-Hour Surveillance Means for Your Car Storage</h3></a>
+        <a href="/blog/why-gated-storage-lots-matter-for-atlanta-vehicle-owners.html" class="article-link"><h3>Why Gated Storage Lots Matter for Atlanta Vehicle Owners</h3></a>
+        <a href="/blog/fire-safety-standards-for-vehicle-storage-facilities.html" class="article-link"><h3>Fire Safety Standards for Vehicle Storage Facilities</h3></a>
+        <a href="/blog/how-to-keep-your-vehicle-safe-in-outdoor-storage.html" class="article-link"><h3>How to Keep Your Vehicle Safe in Outdoor Storage</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">☀️</span>
+        <h2 class="category-title">Weather & Climate</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/how-weather-affects-vehicle-storage-in-georgia.html" class="article-link"><h3>How Weather Affects Vehicle Storage in Georgia</h3></a>
+        <a href="/blog/how-heat-affects-stored-cars-in-atlanta.html" class="article-link"><h3>How Heat Affects Stored Cars in Atlanta</h3></a>
+        <a href="/blog/climate-controlled-car-storage-in-atlanta-what-to-know.html" class="article-link"><h3>Climate-Controlled Car Storage in Atlanta: What to Know</h3></a>
+        <a href="/blog/how-climate-control-protects-stored-vehicles-in-georgia.html" class="article-link"><h3>How Climate Control Protects Stored Vehicles in Georgia</h3></a>
+        <a href="/blog/how-to-protect-stored-vehicles-during-atlanta-storms.html" class="article-link"><h3>How to Protect Stored Vehicles During Atlanta Storms</h3></a>
+        <a href="/blog/best-storage-options-during-hurricane-season.html" class="article-link"><h3>Best Storage Options During Hurricane Season</h3></a>
+        <a href="/blog/best-places-to-store-your-vehicle-during-georgia-winters.html" class="article-link"><h3>Best Places to Store Your Vehicle During Georgia Winters</h3></a>
+        <a href="/blog/how-to-avoid-damage-when-storing-cars-outdoors.html" class="article-link"><h3>How to Avoid Damage When Storing Cars Outdoors</h3></a>
+        <a href="/blog/summer-storage-tips-for-rv-and-boat-owners-in-atlanta.html" class="article-link"><h3>Summer Storage Tips for RV and Boat Owners in Atlanta</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">📋</span>
+        <h2 class="category-title">Storage Types & Comparisons</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/outdoor-vs-indoor-storage-in-atlanta-full-comparison.html" class="article-link"><h3>Outdoor vs Indoor Storage in Atlanta: Full Comparison</h3></a>
+        <a href="/blog/comparison-guide-atlanta-car-storage-pricing.html" class="article-link"><h3>Comparison Guide: Atlanta Car Storage Pricing</h3></a>
+        <a href="/blog/atlantas-most-affordable-car-storage-options-compared.html" class="article-link"><h3>Atlanta's Most Affordable Car Storage Options Compared</h3></a>
+        <a href="/blog/best-suburban-car-storage-options-outside-atlanta.html" class="article-link"><h3>Best Suburban Car Storage Options Outside Atlanta</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">📍</span>
+        <h2 class="category-title">Location Guides</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/why-oxford-is-one-of-atlantas-best-vehicle-storage-areas.html" class="article-link"><h3>Why Oxford Is One of Atlanta's Best Vehicle Storage Areas</h3></a>
+        <a href="/blog/why-people-choose-oxford-over-atlanta-for-storage.html" class="article-link"><h3>Why People Choose Oxford Over Atlanta for Storage</h3></a>
+        <a href="/blog/storage-options-near-i-20-for-atlanta-metro-drivers.html" class="article-link"><h3>Storage Options Near I-20 for Atlanta Metro Drivers</h3></a>
+        <a href="/blog/people-moving-from-atlanta-to-oxford-storage-guide.html" class="article-link"><h3>People Moving from Atlanta to Oxford: Storage Guide</h3></a>
+        <a href="/blog/holiday-travel-storage-options-near-atlanta.html" class="article-link"><h3>Holiday Travel Storage Options Near Atlanta</h3></a>
+      </div>
+    </section>
+
+    <section class="category">
+      <div class="category-header">
+        <span class="category-icon">📝</span>
+        <h2 class="category-title">Choosing & Evaluating Storage</h2>
+      </div>
+      <div class="articles-grid">
+        <a href="/blog/how-to-pick-the-best-storage-facility-for-your-vehicle-in-georgia.html" class="article-link"><h3>How to Pick the Best Storage Facility for Your Vehicle in Georgia</h3></a>
+        <a href="/blog/what-makes-a-good-vehicle-storage-facility-in-georgia.html" class="article-link"><h3>What Makes a Good Vehicle Storage Facility in Georgia</h3></a>
+        <a href="/blog/what-insurance-you-need-for-stored-vehicles-in-atlanta.html" class="article-link"><h3>What Insurance You Need for Stored Vehicles in Atlanta</h3></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="/">Oxford RV Storage</a> · Oxford, Georgia · I-20 Exit 93</p>
+    <p style="margin-top: 0.5rem; opacity: 0.7; font-size: 0.875rem;">&copy; 2025 Oxford RV Storage</p>
+  </footer>
+</body>
+</html>
